@@ -7,7 +7,7 @@ Minimum 8 characters
 At least one uppercase letter
 At least one digit
 At least one special character (!@#$%^&* etc.)
-Last 3 passwords are remembered — cannot be reused
+Last 3 passwords are remembered , cannot be reused
 
 
 Features
@@ -17,8 +17,8 @@ Authentication & Security
 
 Login with username and password
 BCrypt hashed passwords (never stored in plain text)
-JWT session tokens — verified on every action
-5 failed login attempts → account locked for 15 minutes
+JWT session tokens verified on every action
+5 failed login attempts , account locked for 15 minutes
 Session expires after 30 minutes
 Full audit log of all login attempts, failures, lockouts, and password changes
 
